@@ -1,0 +1,128 @@
+.headermenu {
+    background: white url(http://readypizzaweb.com/libraries/img/pizzalogo.png) no-repeat 80px center;
+    border-bottom: 1px solid #ed2b30;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-size: 59px;
+    flex-direction: row-reverse;
+}
+
+.imgHeader {
+    height: 38px;
+    margin: 0;
+    display: none;
+}
+
+span.clssNameUser {
+    margin: 0 1rem;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.titlePage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 16px 0 0 10rem;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.editContain {
+    padding: 0;
+}
+
+table thead {
+    background: white;
+}
+
+.table th, .table td {
+    padding: 0;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.table thead th {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black !important;
+    font-family: arial;
+    font-weight: 500;
+    padding: .5rem 0;
+}
+
+* {
+    color: #616161 !important;
+    font-family: arial;
+}
+
+.statusBadge {
+    padding: 0;
+    color: white !important;
+    font-size: 12px;
+    display: inline;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+button.btn.btn-warning {padding: 0.25rem 0.5rem;}
+
+nav > *, ul.navbarRP-menu.animate * {
+    color: white !important;
+}
+
+ul.navbarRP-menu.animate {}
+
+.btn * {
+    color: white !important;
+}
+
+.btn {
+    color: white !important;
+}
+
+.swal2-popup.swal2-modal.swal2-icon-success.swal2-show {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px 0px rgb(0 0 0 / 87%);
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+    border-radius: 3px;
+    color: white !important;
+}
+
+.swal2-container.swal2-center.swal2-backdrop-show {
+    background: transparent;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.swal2-header {
+    padding: 0 !important;
+    flex-direction: inherit;
+}
+
+.swal2-title {
+    margin: 0 0 0 1rem;
+    width: max-content !important;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.swal2-popup {
+    width: max-content !important;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.swal2-icon.swal2-success {
+    margin: -2rem;
+    transform: scale(0.5);
+}
+
+.swal2-content {
+    padding: 0;
+}
